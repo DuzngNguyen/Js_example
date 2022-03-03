@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Chuỗi ban đầu : rikkeisoft </p>
+    <span>Chuỗi sắp xếp : </span> <span id="i_text"></span>
+    <br> <br>
+    <button id="sapxep" onclick="sap_xep()">Click me</button>
+</body>
+<script>
+    function sap_xep() {
+        let str = ["r", "i", "k", "k", "e", "i", "s", "o", "f", "t"];
+        document.getElementById("i_text").innerText = str.sort();
+    }
+</script>
+
+</html>
